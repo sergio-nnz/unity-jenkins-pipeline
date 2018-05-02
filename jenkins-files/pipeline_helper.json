@@ -1,0 +1,12 @@
+{
+  "helper": {
+    "project": {
+      "jobs": {
+        "deploy": "unity-project-deployment"
+      },
+      "sourceControll": {
+        "repository": "Add repository here"
+      }
+    }
+  }
+}
