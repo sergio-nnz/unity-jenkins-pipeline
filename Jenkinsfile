@@ -26,6 +26,7 @@ pipeline {
             " -testPlatform editmode"
         }
 
+        //TODO: Include the build script in the example project.
         stage('Build Project') {
             powershell "cmd.exe /C ${UNITY_APP} -quit -nographics -projectPath" +
             " ${WORKSPACE}/${UNITY_PROJECT_NAME} -batchmode -executeMethod" +
