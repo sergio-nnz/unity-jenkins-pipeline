@@ -1,4 +1,15 @@
 # Unity Jenkins pipeline
 
-## Requirements
-* Unity 2017.x / Unity 2018.x
+To make use of the shared library you must use the following sample pipeline script.
+```
+@Library('unity-jenkins-pipeline')_
+def pipelineParams = {}
+node("master") {
+    checkout scm
+    pipelineParams = readJSON file: 'jenkins-files/pipeline_params.json'
+}
+StandaloneUnityPipeline(pipelineParams)
+
+```
+
+Configure the following json file:
