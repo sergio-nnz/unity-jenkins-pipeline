@@ -1,0 +1,15 @@
+{
+    "PARAMETERS" : {
+        "NODE" : "Name of Slave Node",
+        "MAJOR_RELEASE_NUMBER" : "1",
+    },
+    "FILES" : {
+        "UNITY_PROJECT":"Name of Project Directory",
+        "UNITY_BUILD":"Name of Executable File",
+        "EDIT_MODE_RESULTS":"edit_mode_results.xml",
+        "PLAY_MODE_RESULTS":"play_mode_results.xml",
+    },
+    "PROGRAMS" : {
+        "UNITY_APP" : "C:/\"Program Files\"/Unity/Hub/Editor/2019.1.1f1/Editor/Unity.exe"
+    }
+}
